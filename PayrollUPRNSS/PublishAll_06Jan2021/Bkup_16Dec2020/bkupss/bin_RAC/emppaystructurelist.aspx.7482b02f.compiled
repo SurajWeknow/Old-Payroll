@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/DynamicPages/Salary/EmpPayStructureList.aspx" hash="fffffffff6e286c5" filehash="2219180cc5cca64d" flags="110000" assembly="App_Web_e5akatm1" type="ASP.dynamicpages_salary_emppaystructurelist_aspx">
+    <filedeps>
+        <filedep name="/Source/DynamicPages/Salary/EmpPayStructureList.aspx" />
+        <filedep name="/Source/DynamicPages/Salary/EmpPayStructureList.aspx.cs" />
+        <filedep name="/Source/MasterPages/AdminMaster.master" />
+        <filedep name="/Source/MasterPages/AdminMaster.master.cs" />
+    </filedeps>
+</preserve>

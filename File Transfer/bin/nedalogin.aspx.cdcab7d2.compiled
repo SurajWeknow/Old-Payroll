@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/NedaLogin.aspx" hash="eea819ae7" filehash="745f634a82dbd711" flags="110000" assembly="App_Web_wlxns0fj" type="ASP.nedalogin_aspx">
+    <filedeps>
+        <filedep name="/Source/NedaLogin.aspx" />
+        <filedep name="/Source/NedaLogin.aspx.cs" />
+    </filedeps>
+</preserve>

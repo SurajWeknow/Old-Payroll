@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/DynamicPages/GPFPanel.aspx" hash="fffffffff6e286c5" filehash="d233e3ad8dde3391" flags="110000" assembly="App_Web_1rkyenlj" type="ASP.dynamicpages_gpfpanel_aspx">
+    <filedeps>
+        <filedep name="/Source/DynamicPages/GPFPanel.aspx" />
+        <filedep name="/Source/DynamicPages/GPFPanel.aspx.cs" />
+        <filedep name="/Source/MasterPages/GPFMaster.master" />
+        <filedep name="/Source/MasterPages/GPFMaster.master.cs" />
+    </filedeps>
+</preserve>

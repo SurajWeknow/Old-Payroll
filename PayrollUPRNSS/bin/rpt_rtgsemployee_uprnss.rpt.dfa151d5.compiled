@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="1" virtualPath="/Source/Reports/rpt_RTGSEmployee_UPRNSS.rpt" hash="ffffffffa218b415" filehash="175e45672f43" flags="110000" assembly="App_Web_sxvczttz">
+    <filedeps>
+        <filedep name="/Source/Reports/rpt_RTGSEmployee_UPRNSS.rpt" />
+    </filedeps>
+</preserve>

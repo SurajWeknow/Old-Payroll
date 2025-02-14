@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="1" virtualPath="/Source/Reports/rptDaArrear_UPRNSS.rpt" hash="7193b413" filehash="2b8a35d588a8" flags="110000" assembly="App_Web_f3gnznhf">
+    <filedeps>
+        <filedep name="/Source/Reports/rptDaArrear_UPRNSS.rpt" />
+    </filedeps>
+</preserve>

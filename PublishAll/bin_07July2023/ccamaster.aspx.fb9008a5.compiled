@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/DynamicPages/Masters/CCAMaster.aspx" hash="eea819ae7" filehash="995120de0f5bee1e" flags="110000" assembly="App_Web_ek03rdps" type="ASP.dynamicpages_masters_ccamaster_aspx">
+    <filedeps>
+        <filedep name="/Source/DynamicPages/Masters/CCAMaster.aspx" />
+        <filedep name="/Source/DynamicPages/Masters/CCAMaster.aspx.cs" />
+        <filedep name="/Source/MasterPages/AdminMaster.master" />
+        <filedep name="/Source/MasterPages/AdminMaster.master.cs" />
+    </filedeps>
+</preserve>

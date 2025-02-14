@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/DynamicPages/Masters/Designation.aspx" hash="fffffffff6e286c5" filehash="21f45b6d8aaf0616" flags="110000" assembly="App_Web_alou3q1f" type="ASP.dynamicpages_masters_designation_aspx">
+    <filedeps>
+        <filedep name="/Source/DynamicPages/Masters/Designation.aspx" />
+        <filedep name="/Source/DynamicPages/Masters/Designation.aspx.cs" />
+        <filedep name="/Source/MasterPages/AdminMaster.master" />
+        <filedep name="/Source/MasterPages/AdminMaster.master.cs" />
+    </filedeps>
+</preserve>

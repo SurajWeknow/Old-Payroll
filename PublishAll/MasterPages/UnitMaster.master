@@ -1,0 +1,353 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="UnitMaster.master.cs" Inherits="MasterPages_UnitMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+     <!-- Bootstrap core CSS -->
+    <link href="<%= ResolveClientUrl("~/css/bootstrap.min.css")%>" rel="stylesheet" />
+    <link href="<%= ResolveClientUrl("~/fonts/css/font-awesome.min.css")%>" rel="stylesheet" />
+    <link href="<%= ResolveClientUrl("~/css/animate.min.css")%>" rel="stylesheet" />
+    <!-- Custom styling plus plugins -->
+ 
+    <link rel="stylesheet" type="text/css" href="<%= ResolveClientUrl("~/css/maps/jquery-jvectormap-2.0.1.css")%>" />
+    <link href="<%= ResolveClientUrl("~/css/icheck/flat/green.css")%>" rel="stylesheet" />
+
+    <%--<link href="<%= ResolveClientUrl("~/css/datatables/tools/css/dataTables.tableTools.css")%>" rel="stylesheet" />--%>
+      
+  
+    <script src="<%= ResolveClientUrl("~/js/nprogress.js")%>" type="text/javascript"></script>
+
+     <!-- select2 -->
+     <link href="<%= ResolveClientUrl("~/css/select/select2.min.css")%>" rel="stylesheet" />
+  
+    <!-- switchery -->
+    <link href="<%= ResolveClientUrl("~/css/switchery/switchery.min.css")%>" rel="stylesheet" />
+
+    <script src="<%= ResolveClientUrl("~/js/jquery.min.js")%>" type="text/javascript"></script>
+   <link href="<%= ResolveClientUrl("~/css/custom.css")%>" rel="stylesheet" />
+   <script src="<%= ResolveClientUrl("~/js/jquery-2.1.1.min.js")%>" type="text/javascript"></script>
+   
+</head>
+
+<body class="nav-md">
+
+    <div class="container body">
+
+        <div class="main_container">
+
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                 
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="#" class="site_title"><img src="<%= ResolveClientUrl("~/images/Logo-UPRNSS2.png")%>" style=" width :30px ; margin-right:15px" alt="Uttar Pradesh Khadi & Village Industries Board"><span>UPRNSS</span></a>
+                       
+                    </div>
+                    <div class="clearfix"></div>
+
+
+                    <!-- menu prile quick info -->
+                    <div class="profile">
+                        <div class="profile_pic">
+                            <img src="<%= ResolveClientUrl("~/images/img.jpg")%>"  alt="..." class="img-circle profile_img">
+                        </div>
+                        <div class="profile_info">
+                            <span>Welcome,</span>
+                            <h2>User</h2>
+                        </div>
+                    </div>
+                    <!-- /menu prile quick info -->
+
+                    <br /> <br />
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+
+                        <div class="menu_section">
+                            <h3>Master & Transactions</h3>
+                            <ul class="nav side-menu">
+                               <%-- <li>
+                                    <a><i class="fa fa-home"></i> Masters <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                        <li><a class="" href="<%= ResolveClientUrl("~/DynamicPages/Masters/State.aspx")%>">State Master</a></li>
+                                        <li><a class="" href="<%= ResolveClientUrl("~/DynamicPages/Masters/City.aspx")%>">City Master</a></li> 
+                                        <li><a class="" href="<%= ResolveClientUrl("~/DynamicPages/Masters/Month.aspx")%>">Month Master</a></li>
+                                        <li><a class="" href="<%= ResolveClientUrl("~/DynamicPages/Masters/FinYear.aspx")%>">Year Master</a></li>
+                                        <li><a class="" href="<%= ResolveClientUrl("~/DynamicPages/Masters/CCAMaster.aspx")%>">CCA Master</a></li>
+                                        <li><a class="" href="<%= ResolveClientUrl("~/DynamicPages/Masters/DAMaster.aspx")%>">DA Master</a></li>
+                                        <li><a class="" href="<%= ResolveClientUrl("~/DynamicPages/Masters/Department.aspx")%>">Department</a></li>
+                                        <li><a class="" href="<%= ResolveClientUrl("~/DynamicPages/Masters/Designation.aspx")%>">Designation</a></li>
+                                        <li><a class="" href="<%= ResolveClientUrl("~/DynamicPages/Masters/GISMaster.aspx")%>">GIS Master</a></li>
+                                        <li><a class="" href="<%= ResolveClientUrl("~/DynamicPages/Masters/HRAMaster.aspx")%>">HRA Master</a></li>
+                                        <li><a class="" href="<%= ResolveClientUrl("~/DynamicPages/Masters/PayComission.aspx")%>">Pay Comission</a></li>
+                                        <li><a class="" href="<%= ResolveClientUrl("~/DynamicPages/Masters/PayScale.aspx")%>">Pay Scale</a></li>
+                                        <li><a class="" href="<%= ResolveClientUrl("~/DynamicPages/Masters/Bank.aspx")%>">Bank Master</a></li>
+                                        <li><a class="" href="<%= ResolveClientUrl("~/DynamicPages/Masters/Posting.aspx")%>">Unit Master</a></li>
+                                        <li><a class="" href="<%= ResolveClientUrl("~/DynamicPages/Masters/GPFMaster.aspx")%>">GPF Master</a></li>
+                                        <li><a class="" href="<%= ResolveClientUrl("~/DynamicPages/Masters/Loan.aspx")%>">Loan Master</a></li>
+                                        <li><a class="" href="<%= ResolveClientUrl("~/DynamicPages/Masters/EMPMaster.aspx")%>">Employee Master</a></li>
+                                    </ul>
+                                </li>--%>
+                                <li>
+                                    <a><i class="fa fa-edit"></i> Transactions <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                        <li><a href="<%= ResolveClientUrl("~/DynamicPages/Salary/EmpPayStructureList.aspx")%>">Pay Structure</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/DynamicPages/Employee/Loan.aspx")%>">Loan Transaction</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/DynamicPages/Employee/LoanEdit.aspx")%>">Edit Loan</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/DynamicPages/Employee/PayComissionWiseEmployee.aspx")%>">Pay Commission Wise Employee</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/DynamicPages/Employee/EmployeeAttendance.aspx")%>">Employee Attendance</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/DynamicPages/Salary/GeneratePaybill.aspx")%>">Generate PayBill</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/DynamicPages/Salary/EditPaybill.aspx")%>">Edit PayBill</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/DynamicPages/GPF/GPFVol.aspx")%>">GPF Voluntarily</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/DynamicPages/GPF/GPFAdvance.aspx")%>">GPF Advance</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/DynamicPages/Employee/EmployeeIncrement.aspx")%>">Employee Increment</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/DynamicPages/Employee/EmployeeBonus.aspx")%>">Employee Bonus</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/DynamicPages/Employee/EmployeePromotion.aspx")%>">Employee Promotion</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/DynamicPages/Employee/EmployeeTransfer.aspx")%>">Employee Transfer</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/DynamicPages/Employee/DaArrear.aspx")%>">DA Arear</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/DynamicPages/Employee/EditDaArrear.aspx")%>">Edit DA Arrear</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/DynamicPages/Employee/IncrementArrear.aspx")%>">Increment Arear</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/DynamicPages/Employee/PayArrear.aspx")%>">Pay Arear</a></li>
+
+                                    </ul>
+                                </li>
+                                <li><a><i class="fa fa-desktop"></i> Reports<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria1.aspx?RepNo=1")%>">Paybill</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria1.aspx?RepNo=2")%>">Payslip</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=1")%>">GPF Report</a></li>
+                                        <%--<li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=2")%>">Advance MCA Schedule</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=14")%>">MCA Interest Schedule</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=3")%>">HBA Report</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=4")%>">GIS Report</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=5")%>">Welfare Report</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=6")%>">Advance Recovery Schedule</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=7")%>">GVR Advance Schedule</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=8")%>">Advance Tax Schedule</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=9")%>">HBA Interest Report </a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=10")%>">Welfare Interest Report</a></li>--%>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=11")%>">Bonus Report</a></li>
+                                        <%--<li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=12")%>">GPF Interest Report</a></li>--%>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=13")%>">Unit Summary Report</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=21")%>">Bonus GPF Report</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=22")%>">Bonus Summary Report</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=23")%>">Da Arrear Summary Report</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=15")%>">Bank List</a></li>
+                                        <%--<li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=16")%>">Increment Arrear</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=17")%>">Pay Arrear</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=18")%>">Pay Arrear GPF Schedule</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/ReportCriteria.aspx?sno=19")%>">Da Arrear Schedule</a></li>--%>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/CReportCriteria.aspx?sno=20")%>">Schedule Reports</a></li>
+                                        <li><a href="<%= ResolveClientUrl("~/Reports/AnnualReportCriteria.aspx?sno=26")%>">Annual Income Report</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /sidebar menu -->
+
+                    <!-- /menu footer buttons -->
+                    <%--<div class="sidebar-footer hidden-small">
+                        <a data-toggle="tooltip" data-placement="top" title="Settings">
+                            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                            <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Lock">
+                            <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Logout">
+                            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                        </a>
+                    </div>--%>
+                    <!-- /menu footer buttons -->
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+
+                <div class="nav_menu">
+                    <nav class="" role="navigation">
+                        <div class="nav toggle">
+                            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                        </div>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="<%= ResolveClientUrl("~/images/img.jpg")%>"  alt=""><%=username%>
+                                    <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
+                                   <%-- <li><a href="javascript:;">  Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <span class="badge bg-red pull-right">50%</span>
+                                            <span>Settings</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">Help</a>
+                                    </li>--%>
+                                    <li><a href="<%= ResolveClientUrl("~/SecureLogin/Login.aspx")%>"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <%--<li role="presentation" class="dropdown">
+                                <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <span class="badge bg-green">6</span>
+                                </a>
+                                <ul id="menu1" class="dropdown-menu list-unstyled msg_list animated fadeInDown" role="menu">
+                                    <li>
+                                        <a>
+                                            <span class="image">
+                                        <img src="images/img.jpg" alt="Profile Image" />
+                                    </span>
+                                            <span>
+                                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                    </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image">
+                                        <img src="images/img.jpg" alt="Profile Image" />
+                                    </span>
+                                            <span>
+                                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                    </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image">
+                                        <img src="images/img.jpg" alt="Profile Image" />
+                                    </span>
+                                            <span>
+                                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                    </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image">
+                                        <img src="images/img.jpg" alt="Profile Image" />
+                                    </span>
+                                            <span>
+                                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                    </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <div class="text-center">
+                                            <a>
+                                                <strong>See All Alerts</strong>
+                                                <i class="fa fa-angle-right"></i>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>--%>
+
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+            <!-- /top navigation -->
+
+            <!-- page content -->
+    <form id="form1" runat="server">
+        <div class="right_col" role="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <!-- /page content -->
+        </div>
+
+    </div>
+
+    <div id="custom_notifications" class="custom-notifications dsp_none">
+        <ul class="list-unstyled notifications clearfix" data-tabbed_notifications="notif-group">
+        </ul>
+        <div class="clearfix"></div>
+        <div id="notif-group" class="tabbed_notifications"></div>
+    </div>
+
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/js/bootstrap.min.js")%>"></script>
+    <!-- chart js -->
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/js/chartjs/chart.min.js")%>"></script>
+    <!-- bootstrap progress js -->
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/js/progressbar/bootstrap-progressbar.min.js")%>"></script>
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/js/nicescroll/jquery.nicescroll.min.js")%>"></script>
+    <!-- icheck -->
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/js/icheck/icheck.min.js")%>"></script>
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/js/custom.js")%>"></script>
+    <!-- datepickek -->
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/js/moment.min2.js")%>"></script>
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/js/datepicker/daterangepicker.js")%>"></script>
+      <!-- switchery -->
+   <script type="text/javascript" src="<%= ResolveClientUrl("~/js/switchery/switchery.min.js")%>"></script>
+ 
+    <!-- form validation -->
+ 
+   <script type="text/javascript" src="<%= ResolveClientUrl("~/js/parsley/parsley.min.js")%>" ></script>
+    <script type="text/javascript">
+     
+        $(document).ready(function () {
+            $.listen('parsley:field:validate', function () {
+                validateFront();
+            });
+            $('#form2 .btn').on('click', function () {
+                $('#form2').parsley().validate();
+                validateFront();
+            });
+            var validateFront = function () {
+                if (true === $('#form2').parsley().isValid()) {
+                    $('.bs-callout-info').removeClass('hidden');
+                    $('.bs-callout-warning').addClass('hidden');
+                } else {
+                    $('.bs-callout-info').addClass('hidden');
+                    $('.bs-callout-warning').removeClass('hidden');
+                }
+            };
+        });
+        try {
+            hljs.initHighlightingOnLoad();
+        } catch (err) { }
+        </script>
+        
+</body>
+
+
+
+
+
+</html>

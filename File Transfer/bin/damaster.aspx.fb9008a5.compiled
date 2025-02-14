@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/DynamicPages/Masters/DAMaster.aspx" hash="eea819ae7" filehash="f238dcca4830059f" flags="110000" assembly="App_Web_xn5aby5p" type="ASP.dynamicpages_masters_damaster_aspx">
+    <filedeps>
+        <filedep name="/Source/DynamicPages/Masters/DAMaster.aspx" />
+        <filedep name="/Source/DynamicPages/Masters/DAMaster.aspx.cs" />
+        <filedep name="/Source/MasterPages/AdminMaster.master" />
+        <filedep name="/Source/MasterPages/AdminMaster.master.cs" />
+    </filedeps>
+</preserve>

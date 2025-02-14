@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/DynamicPages/AdminPayroll.aspx" hash="fffffff3aba49a21" filehash="ae6665a49433dd00" flags="110000" assembly="App_Web_1b1zfguz" type="ASP.dynamicpages_adminpayroll_aspx">
+    <filedeps>
+        <filedep name="/Source/DynamicPages/AdminPayroll.aspx" />
+        <filedep name="/Source/DynamicPages/AdminPayroll.aspx.cs" />
+        <filedep name="/Source/MasterPages/AdminPayroll.master" />
+        <filedep name="/Source/MasterPages/AdminPayroll.master.cs" />
+    </filedeps>
+</preserve>

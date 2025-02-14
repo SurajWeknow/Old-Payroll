@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/DynamicPages/ReportHtml/7thPayArrear.aspx" hash="eea819ae7" filehash="20b6022c8c4cfe4" flags="110000" assembly="App_Web_opzgslfw" type="ASP.dynamicpages_reporthtml_7thpayarrear_aspx">
+    <filedeps>
+        <filedep name="/Source/DynamicPages/ReportHtml/7thPayArrear.aspx" />
+        <filedep name="/Source/DynamicPages/ReportHtml/7thPayArrear.aspx.cs" />
+    </filedeps>
+</preserve>

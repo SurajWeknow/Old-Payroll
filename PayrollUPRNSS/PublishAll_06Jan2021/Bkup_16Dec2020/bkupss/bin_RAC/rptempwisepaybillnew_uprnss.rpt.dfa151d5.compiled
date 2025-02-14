@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="1" virtualPath="/Source/Reports/rptEmpwisePaybillNew_UPRNSS.rpt" hash="fffffffffdd4a431" filehash="dd77bc3c4d6" flags="110000" assembly="App_Web_swhbrol4">
+    <filedeps>
+        <filedep name="/Source/Reports/rptEmpwisePaybillNew_UPRNSS.rpt" />
+    </filedeps>
+</preserve>

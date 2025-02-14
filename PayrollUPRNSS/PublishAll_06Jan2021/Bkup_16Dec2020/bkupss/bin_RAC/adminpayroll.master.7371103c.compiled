@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/MasterPages/AdminPayroll.master" hash="fffffffff6e286c5" filehash="a404454e1d27b599" flags="110000" assembly="App_Web_hfpcxxu2" type="ASP.masterpages_adminpayroll_master">
+    <filedeps>
+        <filedep name="/Source/MasterPages/AdminPayroll.master" />
+        <filedep name="/Source/MasterPages/AdminPayroll.master.cs" />
+    </filedeps>
+</preserve>

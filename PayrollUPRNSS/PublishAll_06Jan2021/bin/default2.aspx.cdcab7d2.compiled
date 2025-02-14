@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/Default2.aspx" hash="fffffff3aba49a21" filehash="561b9cbdf24dca15" flags="110000" assembly="App_Web_xgqlnurg" type="ASP.default2_aspx">
+    <filedeps>
+        <filedep name="/Source/Default2.aspx" />
+        <filedep name="/Source/Default2.aspx.cs" />
+    </filedeps>
+</preserve>

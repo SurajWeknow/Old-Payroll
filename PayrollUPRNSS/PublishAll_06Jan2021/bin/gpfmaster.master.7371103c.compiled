@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/MasterPages/GPFMaster.master" hash="fffffff3aba49a21" filehash="8a958843cec8be70" flags="110000" assembly="App_Web_yfrqjx1w" type="ASP.masterpages_gpfmaster_master">
+    <filedeps>
+        <filedep name="/Source/MasterPages/GPFMaster.master" />
+        <filedep name="/Source/MasterPages/GPFMaster.master.cs" />
+    </filedeps>
+</preserve>

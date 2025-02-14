@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/DynamicPages/Employee/Loan.aspx" hash="eea819ae7" filehash="38524575ca3e9862" flags="110000" assembly="App_Web_l5fe5a44" type="ASP.dynamicpages_employee_loan_aspx">
+    <filedeps>
+        <filedep name="/Source/DynamicPages/Employee/Loan.aspx" />
+        <filedep name="/Source/DynamicPages/Employee/Loan.aspx.cs" />
+        <filedep name="/Source/MasterPages/AdminMaster.master" />
+        <filedep name="/Source/MasterPages/AdminMaster.master.cs" />
+    </filedeps>
+</preserve>

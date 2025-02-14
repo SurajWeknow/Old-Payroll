@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/Reports/ReportCriteria_New.aspx" hash="fffffffff6e286c5" filehash="e3b21f89def882b6" flags="110000" assembly="App_Web_jcu24c0d" type="ASP.reports_reportcriteria_new_aspx">
+    <filedeps>
+        <filedep name="/Source/MasterPages/AdminMaster.master" />
+        <filedep name="/Source/MasterPages/AdminMaster.master.cs" />
+        <filedep name="/Source/Reports/ReportCriteria_New.aspx" />
+        <filedep name="/Source/Reports/ReportCriteria_New.aspx.cs" />
+    </filedeps>
+</preserve>

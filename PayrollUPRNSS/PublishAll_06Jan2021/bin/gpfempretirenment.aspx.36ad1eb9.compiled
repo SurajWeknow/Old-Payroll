@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/DynamicPages/GPF/GpfEmpRetirenment.aspx" hash="fffffff3aba49a21" filehash="418e00b0b738afa9" flags="110000" assembly="App_Web_famwpwes" type="ASP.dynamicpages_gpf_gpfempretirenment_aspx">
+    <filedeps>
+        <filedep name="/Source/DynamicPages/GPF/GpfEmpRetirenment.aspx" />
+        <filedep name="/Source/DynamicPages/GPF/GpfEmpRetirenment.aspx.cs" />
+        <filedep name="/Source/MasterPages/GPFMaster.master" />
+        <filedep name="/Source/MasterPages/GPFMaster.master.cs" />
+    </filedeps>
+</preserve>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/DynamicPages/Employee/EditPayArrear.aspx" hash="fffffff3aba49a21" filehash="c3e2890fbb9e19e9" flags="110000" assembly="App_Web_lzqpo3wz" type="ASP.dynamicpages_employee_editpayarrear_aspx">
+    <filedeps>
+        <filedep name="/Source/DynamicPages/Employee/EditPayArrear.aspx" />
+        <filedep name="/Source/DynamicPages/Employee/EditPayArrear.aspx.cs" />
+        <filedep name="/Source/MasterPages/AdminMaster.master" />
+        <filedep name="/Source/MasterPages/AdminMaster.master.cs" />
+    </filedeps>
+</preserve>

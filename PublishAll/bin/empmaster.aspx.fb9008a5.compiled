@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/DynamicPages/Masters/EMPMaster.aspx" hash="eea819ae7" filehash="a50685fd8921625d" flags="110000" assembly="App_Web_t3piqike" type="ASP.dynamicpages_masters_empmaster_aspx">
+    <filedeps>
+        <filedep name="/Source/DynamicPages/Masters/EMPMaster.aspx" />
+        <filedep name="/Source/DynamicPages/Masters/EMPMaster.aspx.cs" />
+        <filedep name="/Source/MasterPages/AdminMaster.master" />
+        <filedep name="/Source/MasterPages/AdminMaster.master.cs" />
+    </filedeps>
+</preserve>

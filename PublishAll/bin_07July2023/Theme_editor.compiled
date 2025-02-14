@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/App_Themes/editor/" hash="eea819ae7" filehash="aba4b22eb258d864" flags="110000" assembly="App_Theme_editor" type="ASP.editor">
+    <filedeps>
+        <filedep name="/Source/App_Themes/editor/" />
+    </filedeps>
+</preserve>

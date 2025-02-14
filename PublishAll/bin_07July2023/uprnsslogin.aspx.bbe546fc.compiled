@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/SecureLogin/UprnssLogin.aspx" hash="eea819ae7" filehash="133624fc6c76ac2a" flags="110000" assembly="App_Web_hv5dc10a" type="ASP.securelogin_uprnsslogin_aspx">
+    <filedeps>
+        <filedep name="/Source/SecureLogin/UprnssLogin.aspx" />
+        <filedep name="/Source/SecureLogin/UprnssLogin.aspx.cs" />
+    </filedeps>
+</preserve>

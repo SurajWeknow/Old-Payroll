@@ -1,0 +1,112 @@
+﻿@import url("superadmin.css");
+.bott_marginFeedback
+{
+
+	margin-top:0px;
+	
+}
+.spnMandatory {
+	color: #F3850E;
+	font-weight: bold;
+}
+.spnGraySubText {
+	color: Gray;
+	font-size: 10px;
+}
+.cf {
+	display: block;
+}
+.breadcrumbs1
+{
+    position:relative;
+    border-bottom:1px solid #e5e5e5;
+    background-color:#f5f5f5;
+    min-height:0px;
+    line-height:0px;
+    padding: 8px 12px 8px 0;
+    display:block;
+}
+
+#ctl00_ContentPlaceHolder1_UCright_Preview
+    {
+        width: 200px;
+        height: auto; /*float: right;*/
+        border: solid 3px #EEE;
+        display: none; /* margin-left:25px;*/
+        margin-top: 5px;
+    }
+    #ctl00_ContentPlaceHolder1_UCright_divImg
+    {
+        float: inherit;
+        width: 230px;
+        height: 150px;
+        display: none;
+    }
+    input[type='checkbox']
+    {
+        width: 14px;
+        height: 14px;
+        float:left;
+        margin-right: 3px;
+    }
+    #ctl00_ContentPlaceHolder1_UCright_cmbCategory_chzn
+    {
+        Width:240px;
+    }
+    #btnokdiv
+    {
+        margin:0px auto;
+        width:35%;
+        float:left;
+        display:block;
+    }
+     #Scrollable
+        {
+            height:390px!important;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+        #Overlay
+        {
+            width: 100%;
+            height: 100%;
+            background-color: Black;
+            opacity: 0.5;
+            top: 0%;
+            position: fixed;
+            z-index: 999;
+            display: none;
+            left: 0%;
+        }
+        #panel
+        {
+            width: 700px;
+            height:450px;
+            /*min-height: 350px;*/
+            border: solid 5px #CCCCCC;
+            background-color: #ffffff;
+            top: 10%;
+            left: 25%;
+            right: 25%;
+            position: fixed;
+            display: none;
+            z-index: 15000;
+            margin-bottom:20px;
+        }
+        #heading
+        {
+            padding: 0;
+            margin: 5px 8px;
+            font-size: 18px;
+            font-weight: lighter;
+            color: #2679b5;
+            font-family: 'Open Sans';
+            padding:5px;
+            
+        }
+        #Scrollable
+        {
+            height:450px;
+            /*overflow-y: scroll;
+            overflow-x: hidden;*/
+        }

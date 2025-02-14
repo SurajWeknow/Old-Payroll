@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/MasterPages/UnitMaster.master" hash="fffffff3aba49a21" filehash="45845d21f70676bd" flags="110000" assembly="App_Web_52s40asf" type="ASP.masterpages_unitmaster_master">
+    <filedeps>
+        <filedep name="/Source/MasterPages/UnitMaster.master" />
+        <filedep name="/Source/MasterPages/UnitMaster.master.cs" />
+    </filedeps>
+</preserve>

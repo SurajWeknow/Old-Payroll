@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/SecureLogin/Login.aspx" hash="fffffffff6e286c5" filehash="af86e2391e117320" flags="110000" assembly="App_Web_mofyaygx" type="ASP.securelogin_login_aspx">
+    <filedeps>
+        <filedep name="/Source/SecureLogin/Login.aspx" />
+        <filedep name="/Source/SecureLogin/Login.aspx.cs" />
+    </filedeps>
+</preserve>

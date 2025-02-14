@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="1" virtualPath="/Source/less/rptCompiledPaybill_UPRNSS.rpt" hash="7193b413" filehash="ffffe182bcf0f102" flags="110000" assembly="App_Web_krzpdoat">
+    <filedeps>
+        <filedep name="/Source/less/rptCompiledPaybill_UPRNSS.rpt" />
+    </filedeps>
+</preserve>

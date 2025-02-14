@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/DynamicPages/GPF/GPFAdvance.aspx" hash="fffffff3aba49a21" filehash="b35ded78dc36798d" flags="110000" assembly="App_Web_famwpwes" type="ASP.dynamicpages_gpf_gpfadvance_aspx">
+    <filedeps>
+        <filedep name="/Source/DynamicPages/GPF/GPFAdvance.aspx" />
+        <filedep name="/Source/DynamicPages/GPF/GPFAdvance.aspx.cs" />
+        <filedep name="/Source/MasterPages/AdminMaster.master" />
+        <filedep name="/Source/MasterPages/AdminMaster.master.cs" />
+    </filedeps>
+</preserve>

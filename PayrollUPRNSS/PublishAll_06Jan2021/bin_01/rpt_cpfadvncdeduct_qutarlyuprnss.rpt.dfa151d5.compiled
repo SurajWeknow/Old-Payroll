@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="1" virtualPath="/Source/Reports/rpt_CpfAdvncDeduct_QutarlyUPRNSS.rpt" hash="ffffffffa218b415" filehash="ffffbe7b9c9182c9" flags="110000" assembly="App_Web_ifjoq1ki">
+    <filedeps>
+        <filedep name="/Source/Reports/rpt_CpfAdvncDeduct_QutarlyUPRNSS.rpt" />
+    </filedeps>
+</preserve>

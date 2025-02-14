@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/DynamicPages/Employee/EmployeePayArrear.aspx" hash="fffffffff6e286c5" filehash="a48d31a559a68838" flags="110000" assembly="App_Web_thmyx3vn" type="ASP.dynamicpages_employee_employeepayarrear_aspx">
+    <filedeps>
+        <filedep name="/Source/DynamicPages/Employee/EmployeePayArrear.aspx" />
+        <filedep name="/Source/DynamicPages/Employee/EmployeePayArrear.aspx.cs" />
+        <filedep name="/Source/MasterPages/GPFMaster.master" />
+        <filedep name="/Source/MasterPages/GPFMaster.master.cs" />
+    </filedeps>
+</preserve>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/DynamicPages/Employee/EmployeePromotion.aspx" hash="fffffff3aba49a21" filehash="5b1f58be4eb5b1e9" flags="110000" assembly="App_Web_atttbw3j" type="ASP.dynamicpages_employee_employeepromotion_aspx">
+    <filedeps>
+        <filedep name="/Source/DynamicPages/Employee/EmployeePromotion.aspx" />
+        <filedep name="/Source/DynamicPages/Employee/EmployeePromotion.aspx.cs" />
+        <filedep name="/Source/MasterPages/AdminMaster.master" />
+        <filedep name="/Source/MasterPages/AdminMaster.master.cs" />
+    </filedeps>
+</preserve>

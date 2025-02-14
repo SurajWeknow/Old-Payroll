@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/ImportUtility/ImportCUGDeduction.aspx" hash="fffffff3aba49a21" filehash="2aee1b3649fd1715" flags="110000" assembly="App_Web_4jsptjg3" type="ASP.importutility_importcugdeduction_aspx">
+    <filedeps>
+        <filedep name="/Source/ImportUtility/ImportCUGDeduction.aspx" />
+        <filedep name="/Source/ImportUtility/ImportCUGDeduction.aspx.cs" />
+        <filedep name="/Source/MasterPages/AdminMaster.master" />
+        <filedep name="/Source/MasterPages/AdminMaster.master.cs" />
+    </filedeps>
+</preserve>

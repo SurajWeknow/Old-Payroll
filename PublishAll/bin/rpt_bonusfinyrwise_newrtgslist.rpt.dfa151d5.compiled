@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="1" virtualPath="/Source/Reports/rpt_BonusFinyrWise_NewRTGSlist.rpt" hash="7193b413" filehash="62d668a4b74" flags="110000" assembly="App_Web_julivslq">
+    <filedeps>
+        <filedep name="/Source/Reports/rpt_BonusFinyrWise_NewRTGSlist.rpt" />
+    </filedeps>
+</preserve>

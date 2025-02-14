@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/Reports/AppReportViewer_Deduct_New.aspx" hash="eea819ae7" filehash="ccdd3302c0338417" flags="110000" assembly="App_Web_f3gnznhf" type="ASP.reports_appreportviewer_deduct_new_aspx">
+    <filedeps>
+        <filedep name="/Source/Reports/AppReportViewer_Deduct_New.aspx" />
+        <filedep name="/Source/Reports/AppReportViewer_Deduct_New.aspx.cs" />
+    </filedeps>
+</preserve>

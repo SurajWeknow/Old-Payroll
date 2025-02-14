@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Source/App_Themes/font/" hash="fffffff3aba49a21" filehash="625473420c1ca258" flags="110000" assembly="App_Theme_font" type="ASP.font">
+    <filedeps>
+        <filedep name="/Source/App_Themes/font/" />
+    </filedeps>
+</preserve>

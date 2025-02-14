@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="1" virtualPath="/Source/Reports/Excelrpt_BANKEmployee_UPRNSS.rpt" hash="7193b413" filehash="fffff14a06670e4f" flags="110000" assembly="App_Web_adautb5d">
+    <filedeps>
+        <filedep name="/Source/Reports/Excelrpt_BANKEmployee_UPRNSS.rpt" />
+    </filedeps>
+</preserve>
